@@ -7,10 +7,7 @@ echo "Installing dependencies..."
 git submodule update --init
 
 # Install the dependencies
-which bundle >/dev/null 2>&1 || gem install bundler
-bundle
-bundle exec pod install
-which ios-sim >/dev/null 2>&1 || brew install ios-sim
+pod install
 
 # Create the iOctocatAPI.plist file by copying the sample
 if [ ! -f iOctocatAPI.plist  ]

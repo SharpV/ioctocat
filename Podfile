@@ -1,6 +1,6 @@
 platform :ios, '5.0'
 
-gem 'cocoapods', '0.19.1'
+gem 'cocoapods', '0.26.2'
 
 pod 'AFNetworking', '1.2'
 pod 'AFOAuth2Client', '0.1'

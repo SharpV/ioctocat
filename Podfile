@@ -13,7 +13,7 @@ pod 'TPKeyboardAvoiding'
 pod 'NSStringEmojize', :git => 'https://github.com/iOctocat/NSStringEmojize.git'
 pod 'YRDropdownView', :git => 'https://github.com/iOctocat/YRDropdownView.git'
 pod 'ECSlidingViewController', :git => 'https://github.com/iOctocat/ECSlidingViewController.git'
-pod 'Expecta', '~> 0.2.1'
+pod 'Expecta', '~> 0.2.3'
 
 post_install do |installer|
   require 'fileutils'
